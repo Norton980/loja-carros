@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>SellOldCars</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f6f6f6;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    /* Header centralizado */
+    header {
+      width: 100%;
+      background: linear-gradient(90deg, #355e3b 0%, #4e944f 100%);
+      padding: 28px 0 18px 0;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    header nav a {
+      color: #eafbea;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.2s;
+    }
+    header nav a:hover {
+      color: #b7e4c7;
+    }
+    header h1 {
+      margin-top: 14px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+      color: #eafbea;
+      text-shadow: 1px 1px 0 #355e3b;
+      text-align: center;
+    }
+    /* Centralização do conteúdo principal */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .carros-destaque {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      width: 100%;
+    }
+    .carros-destaque h2 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+    .carros-destaque > div {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+    .carro {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      width: 320px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .carro img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .carro h3 {
+      margin: 18px 0 10px 0;
+      color: #34495e;
+    }
+    .carro p {
+      color: #555;
+    }
+    .carro button {
+      margin-top: 16px;
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 10px 28px;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    /* Footer centralizado */
+    footer {
+      width: 100%;
+      background: linear-gradient(90deg, #355e3b 0%, #4e944f 100%);
+      padding: 30px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      margin-top: auto;
+    }
+    footer p {
+      color: #eafbea;
+      font-size: 1.1em;
+      margin-top: 8px;
+    }
+    footer img {
+      height: 60px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="destaques.html">DESTAQUES</a>
+      <a href="sobrenos.html">SOBRE NÓS</a>
+    </nav>
+    <h1>SELLOLD CARS</h1>
+  </header>
+  <div class="container">
+    <section class="carros-destaque">
+      <h2>Destaques de Vendas</h2>
+      <div>
+        <div class="carro">
+          <img src="img/FORD GALAXIE 500.jpg" alt="Ford Galaxie 500">
+          <h3>Ford Galaxie 500</h3>
+          <p>Um clássico dos anos 70, o Ford Galaxie 500 é sinônimo de luxo e conforto. Equipado com motor V8, acabamento refinado e amplo espaço interno, é perfeito para quem busca elegância e potência em um só carro.</p>
+          <button>Ver detalhes</button>
+        </div>
+        <div class="carro">
+          <img src="img/FORD GALAXIE LTD.jpg" alt="Ford Galaxie LTD">
+          <h3>Ford Galaxie LTD</h3>
+          <p>O Ford Galaxie LTD representa o topo da linha Galaxie, trazendo ainda mais sofisticação e tecnologia para a época. Destaque para o acabamento premium, direção hidráulica e bancos de couro originais.</p>
+          <button>Ver detalhes</button>
+        </div>
+        <div class="carro">
+          <img src="img/FORD CORCEL II L.jpg" alt="Ford Corcel II L">
+          <h3>Ford Corcel II L</h3>
+          <p>O Ford Corcel II L é um ícone dos anos 80, conhecido pela economia e robustez. Ideal para colecionadores e apaixonados por carros nacionais, oferece ótimo desempenho e manutenção acessível.</p>
+          <button>Ver detalhes</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <img src="img/logo.png" alt="Logo SellOldCars">
+    <p>Sobre nós</p>
+  </footer>
+</body>
+</html>

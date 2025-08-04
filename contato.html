@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SellOldCars - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f6fff8;
+        }
+        header {
+            background: linear-gradient(90deg, #355e3b 0%, #4e944f 100%);
+            padding: 28px 0 18px 0;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            text-align: center;
+        }
+        header nav {
+            margin-bottom: 10px;
+        }
+        header nav a {
+            color: #eafbea;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        header nav a:hover {
+            color: #b7e4c7;
+        }
+        header h1 {
+            margin-top: 14px;
+            font-family: 'Georgia', serif;
+            letter-spacing: 2px;
+            color: #eafbea;
+            text-shadow: 1px 1px 0 #355e3b;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 70vh;
+            justify-content: center;
+        }
+        section {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(53,94,59,0.08);
+            padding: 32px 32px 24px 32px;
+            margin: 32px 0;
+            max-width: 500px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section h2, section h3 {
+            text-align: center;
+            margin: 0 0 8px 0;
+            color: #355e3b;
+            font-weight: bold;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 4px;
+        }
+        section h3 {
+            font-size: 1.2em;
+            color: #4e944f;
+            margin-bottom: 16px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 24px;
+            width: 100%;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.1em;
+            color: #222;
+        }
+        .contact-item img {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            background: #eafbea;
+            padding: 4px;
+            box-shadow: 0 1px 4px rgba(53,94,59,0.10);
+        }
+        .contact-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #b7e4c7;
+            border-radius: 6px;
+            font-size: 1em;
+            font-family: inherit;
+            resize: none;
+        }
+        .contact-form button {
+            background: linear-gradient(90deg, #355e3b 0%, #4e944f 100%);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 12px 32px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+            box-shadow: 0 2px 8px rgba(53,94,59,0.10);
+            margin-top: 8px;
+        }
+        .contact-form button:hover {
+            background: linear-gradient(90deg, #4e944f 0%, #355e3b 100%);
+        }
+        .map {
+            margin-top: 18px;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(53,94,59,0.10);
+        }
+        .map iframe {
+            width: 100%;
+            height: 180px;
+            border: none;
+            display: block;
+        }
+        footer {
+            width: 100%;
+            background: linear-gradient(90deg, #355e3b 0%, #4e944f 100%);
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+        footer img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        footer p {
+            color: #eafbea;
+            font-size: 1.1em;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobrenos.html">Sobre Nós</a>
+            <a href="destaques.html">Contato</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+        <h1>SellOldCars</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <h3>Fale conosco para comprar ou vender seu carro usado!</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" style="background:#25D366;">
+                    <span>(11) 91234-5678</span>
+                </div>
+                <div class="contact-item">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="background:#E1306C;">
+                    <span>@selloldcars</span>
+                </div>
+                <div class="contact-item">
+                    <span style="font-size:1.1em; color:#222;">
+                        Rua das Palmeiras, 123 - São Paulo, SP
+                    </span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="map">
+                <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-46.633309%2C-23.55052%2C-46.623309%2C-23.54052&amp;layer=mapnik" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="https://cdn-icons-png.flaticon.com/512/744/744465.png" alt="Logo SellOldCars">
+        <p>&copy; 2024 SellOldCars. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
